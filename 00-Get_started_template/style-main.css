@@ -16,15 +16,15 @@ body {
   border: 5px solid #216ec5;
 }
 
-.parent div {
+.parent > div {
   font-size: 3rem;
   padding-left: 20px;
 }
 
-.parent div:nth-child(odd) {
+.parent > div:nth-child(odd) {
   background-color: #ffe08c;
 }
 
-.parent div:nth-child(even) {
+.parent > div:nth-child(even) {
   background-color: #92c8ce;
 }
